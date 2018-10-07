@@ -22,7 +22,6 @@ import StoreKit
 import UserNotifications
 
 class AutomaticEvents: NSObject, SKPaymentTransactionObserver, SKProductsRequestDelegate {
-    
     var _minimumSessionDuration: UInt64 = 10000
     var minimumSessionDuration: UInt64 {
         set {
